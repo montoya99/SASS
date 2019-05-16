@@ -1,0 +1,38 @@
+// Probando SASS
+// EXTENSIÓN SCSS IMPORTANTE LA EXTENSIÓN, YA QUE DEPENDERÁ DE ELLO EL ARCHIVO QUE CREAREMOS A CONTINUACIÓN
+
+
+// VARIABLES DE COLORES
+$base: #060a0f;
+$sec: #494949;
+$outline: #ff6600;
+$text: transparentize($sec,.5);
+
+
+// ESTILOS GENRALES
+
+a {
+    margin: 0px;
+    padding: 0px;
+    @extend .tSlow; // @extend -
+    &:hover{ //&--> todo elemento
+        color: $outline;
+    }
+}
+
+h1,h1,h3,h4,h5,h6 {
+    color: $base;
+}
+
+p {
+    color: $sec;
+}
+
+.tSlow {
+    transition: all 0.5s ease-in-out;
+}
+
+// ESTILOS DE LOS TEXTAREA, INPUTS Y BUTTONS
+
+//ESTILOS DE LA BARRA DE NAVEGACIÓN
+

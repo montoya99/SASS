@@ -1,0 +1,14 @@
+a {
+  margin: 0px;
+  padding: 0px;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out; }
+  a:hover {
+    color: #ff6600; }
+
+h1, h1, h3, h4, h5, h6 {
+  color: #060a0f; }
+
+p {
+  color: #494949; }
